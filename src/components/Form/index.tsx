@@ -16,7 +16,7 @@ export const Form = () => {
         source={require("../../assets/logo.png")}
       />
       <StatusBar style="auto" />
-      <TextStyled className="font-bold text-[23px] mt-5">
+      <TextStyled className="font-bold text-[23px] my-2">
         Sejam Bem Vindos
       </TextStyled>
       <TextStyled className="text-[13px] text-gray-400">
