@@ -4,7 +4,7 @@ import { styled } from "nativewind";
 
 const ViewStyled = styled(View);
 
-export default function Login() {
+export default function SignIn() {
   return (
     <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
       <ViewStyled className={"flex-1"}>

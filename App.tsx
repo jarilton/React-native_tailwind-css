@@ -1,5 +1,11 @@
-import Login from "./src/screens/Login";
+import { Routes } from "./src/routes";
+import { StatusBar } from "expo-status-bar";
 
 export default function App() {
-  return <Login />;
+  return (
+    <>
+      <Routes />
+      <StatusBar style="auto" />
+    </>
+  );
 }

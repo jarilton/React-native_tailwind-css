@@ -1,4 +1,3 @@
-import { StatusBar } from "expo-status-bar";
 import { View, Text, TextInput, Image, TouchableOpacity } from "react-native";
 import { styled } from "nativewind";
 
@@ -15,7 +14,7 @@ export const Form = () => {
         className="w-[70px] h-[90px]"
         source={require("../../assets/logo.png")}
       />
-      <StatusBar style="auto" />
+
       <TextStyled className="font-bold text-[23px] my-2">
         Sejam Bem Vindos
       </TextStyled>
